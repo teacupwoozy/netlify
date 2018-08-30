@@ -1,0 +1,396 @@
+body {
+	margin: 0%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #08708A;
+}
+
+p {
+	line-height: 1.75;
+	margin: 15px;
+	font-weight: 300;
+}
+
+#nav-container {
+	text-align: center;
+}
+
+#nav-header {
+	background-color: #EDFAFD;
+	width: 100%;
+	height: 150px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+#menu-icon {
+	display: inline-block;
+	background: #EDFAFD url(images/arrow.png) center;
+	height: 26px;
+	width: 32px;
+	padding-top: 6px;
+	border-radius: 6px;
+}
+
+nav a {
+	color: #08708A;
+}
+
+nav ul, nav:active ul {
+	display: none;
+	position: center;
+	background: #EDFAFD;
+	padding: 0;
+	top: 150px;
+	width: 55%;
+	margin: 0 auto;
+	border-radius: 4px 4px 4px 4px;
+}
+
+nav li {
+	text-align: center;
+	width: 100%;
+	padding: 13px 0;
+}
+
+nav:hover ul {
+	display: block;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 300;
+	color: #08708A;
+	text-align: center;
+	margin: 15px 20px;
+}
+
+h1 span {
+	font-size: 30px;
+	font-weight: 300;
+	color: #3DDAD7;
+}
+
+a {
+	text-decoration: none;
+	color: #2A93D5;
+}
+
+a:hover {
+	color: #3DDAD7;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+.nav-padding {
+	margin-top: 150px;
+}
+
+.nav-menu {
+	font-size: 16px;
+}
+
+#welcome-section {
+	background-image: url(images/greece.jpg);
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100vh;
+}
+
+#welcome-section h2 {
+	color: #08708A;
+	font-size: 45px;
+	font-weight: 300;
+	position: absolute;
+	top: 25vh;
+	left: -10px;
+	padding: 0 10px;
+	text-align: right;
+}
+
+.highlight {
+	background-color: rgb(237,251,254);
+	opacity: 0.7;
+}
+
+.background-ocean-box {
+	background-color: #BBDED6;
+	width: 100%;
+}
+
+h2 {
+	color: #08708A;
+	font-size: 55px;
+	font-weight: 300;
+	text-align: right;
+	margin: 15px;
+}
+
+h3 {
+	font-size: 40px;
+	font-weight: 300;
+	margin: 10px;
+}
+
+h4 {
+	line-height: 1.75;
+	text-align: center;
+	font-size: 24px;
+	margin: 10px;
+	font-weight: 400;
+}
+
+h5 {
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 10px;
+}
+
+.home-small-box {
+	/*background-image: url(image/coins-travel.jpg);
+	background-size: 200px 100px;
+	background-repeat: no-repeat;*/
+	background-color: #EDFAFD;
+	border: 2px solid #08708A;
+	width: 90vw;
+	height: 275px;
+	margin: 0 auto;
+}
+
+.home-small-box p {
+	padding: 0 10px;
+	text-align: center;
+}
+
+.first-sentence {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.button {
+	background-color: #EDFAFD;
+	font-size: 18px;
+	color: #3DDAD7;
+	border-radius: 6px;
+	padding: 8px 24px;
+	border: 2px solid #3DDAD7;
+}
+
+.button-container {
+	text-align: center;
+}
+
+.button:hover {
+	background-color: #3DDAD7;
+	color: #EDFAFD;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+.grid {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+.testimonial-cell {
+	margin: 1rem;
+	padding: 10px 2px;
+}
+
+.testimonial-cell img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.responsive-image {
+	max-width: 100%;
+}
+
+.newsletter {
+	color: #3DDAD7;
+	font-weight: 400;
+}
+
+/*SERVICE PAGE*/
+.services-left {
+	background-color: #BBDED6;
+	text-align: center;
+	height: 300px;
+}
+
+.services-right {
+	text-align: center;
+}
+
+.included-list {
+	text-align: left;
+	line-height: 1.5;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+/*ABOUT PAGE*/
+#about-container {
+	background-color: #BBDED6;
+}
+
+#about-photo {
+	border-radius: 80%;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*CONTACT PAGE*/
+#contact {
+	text-align: center;
+}
+
+footer {
+	background-color: #EDFAFD;
+	font-size: 15px;
+	line-height: 1.75;
+	margin: 0;
+	text-align: center;
+}
+
+
+@media screen and (min-width: 480px) {
+	#welcome-section h2 {
+	top: 35vh;
+	left: 15vw;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.grid {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.testimonial-cell {
+		width: calc(50% - 2.25rem);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	p, h5, h4, .included-list, #legal{
+		margin: auto;
+		width: 80%;
+	}
+	.testimonial-about {
+		width: calc(50% - 2.25rem);
+	}
+	#welcome-section h2 {
+	left: 35vw;
+	}
+	.home-small-box {
+	width: 55vw;
+	height: 250px;
+	margin: 0 auto;
+	}
+	.services-right p {
+		text-align: left;
+	}
+	.included-list {
+
+	}
+	#about-photo {
+		float: left;
+		padding: 20px;
+	}
+	footer h5 {
+		max-width: 40%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	h2 {
+		font-size: 65px;
+		width: 90%;
+	}
+	#nav-header {
+		height: 100px;
+	}
+	#welcome-section h2 {
+		left: 0vw;
+		font-size: 55px;
+	}
+	#menu-icon {
+		display: none;
+	}
+	#nav-header {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: left;
+		padding: 10px;
+		width: 100vw;
+	}
+/*	#nav-container {
+		padding: 40px;
+	}*/
+	nav ul {
+		display: flex;
+	}
+	.nav-menu {
+		padding: 10px 10px;
+		font-size: 17px;
+	}
+
+	/*fix below for full size nav*/
+/*	nav:hover ul {
+		display: inline;
+	}*/
+	nav li {
+		display: inline;
+	}
+	#nav-container {
+		width: 400px;
+	}
+	.nav-padding {
+	margin-top: 120px;
+	}
+
+	.home-small-box {
+		height: 225px;
+	}
+	.testimonial-cell {
+		width: calc(33.33% - 2.25rem);
+	}
+	.testimonial-about {
+		width: calc(50% - 2.25rem);
+	}
+	.services-container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.services-cell {
+		width: 50%;
+		height: 1000px;
+	}
+	#about-photo {
+		float: left;
+	}
+}
+
+
+
